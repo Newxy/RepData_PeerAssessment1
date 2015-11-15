@@ -24,14 +24,10 @@ hist(total_steps$steps, main="Total Number of Steps per Day", xlab="Total Number
 ```{r echo=TRUE}
 mean(total_steps$steps,na.rm=TRUE)
 median(total_steps$steps,na.rm=TRUE)
-<<<<<<< HEAD
 total_mean<-mean(total_steps$steps,na.rm=TRUE)
 total_median<-median(total_steps$steps,na.rm=TRUE)
 ```
 The mean of the total number of steps taken per day is `r total_mean` and the median is `r total_median`.
-=======
-```
->>>>>>> origin/master
 
 ## What is the average daily activity pattern?
 ### Time series plot
